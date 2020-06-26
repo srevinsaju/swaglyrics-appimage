@@ -4,6 +4,5 @@ Exec=swaglyrics
 Type=Application
 Icon=swaglyrics
 Terminal=true
-Categories=Multimedia;
 Keywords=Lyrics;Music;Songs;
 StartupWMClass=swaglyrics
