@@ -4,5 +4,6 @@ Exec=swaglyrics
 Type=Application
 Icon=swaglyrics
 Terminal=true
+Categories=Audio;
 Keywords=Lyrics;Music;Songs;
 StartupWMClass=swaglyrics
