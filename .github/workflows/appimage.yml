@@ -40,5 +40,15 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
       with:
-        name: guiscrcpy-continuous-x86_64.AppImage
-        path: guiscrcpy-x86_64.AppImage
+        name: swaglyrics-continuous-x86_64.AppImage
+        path: swaglyrics-x86_64.AppImage
+
+    - name: Release
+      uses: "marvinpinto/action-automatic-releases@latest"
+      with:
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        automatic_release_tag: "latest"
+        prerelease: true
+        title: "Continuous"
+        files: |
+          swaglyrics-x86_64.AppImage
