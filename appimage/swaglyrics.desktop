@@ -1,9 +1,9 @@
 [Desktop Entry]
-Name=guiscrcpy
-Exec=guiscrcpy
+Name=swaglyrics
+Exec=swaglyrics
 Type=Application
-Icon=guiscrcpy
-Terminal=false
-Categories=Development;
-Keywords=Python;Screen;Mirroring;Android;
-StartupWMClass=guiscrcpy
+Icon=swaglyrics
+Terminal=true
+Categories=Multimedia;
+Keywords=Lyrics;Music;Songs;
+StartupWMClass=swaglyrics
